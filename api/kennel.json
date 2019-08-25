@@ -1,0 +1,10 @@
+{
+  "animals": [
+    { "id": 1, "name": "Doodles", "breed": "Poodle" },
+    { "id": 2, "name": "Decker", "breed": "German Sheperd" },
+    { "id": 3, "name": "Esme", "breed": "Pitbull" },
+    { "id": 4, "name": "Scooby Doo", "breed": "Great Dane" },
+    { "id": 5, "name": "Lil Doo", "breed": "Great Dane" },
+    { "id": 6, "name": "Lady Doo", "breed": "Great Dane" }
+  ]
+}
