@@ -1,10 +1,100 @@
 {
   "animals": [
-    { "id": 1, "name": "Doodles", "breed": "Poodle" },
-    { "id": 2, "name": "Decker", "breed": "German Sheperd" },
-    { "id": 3, "name": "Esme", "breed": "Pitbull" },
-    { "id": 4, "name": "Scooby Doo", "breed": "Great Dane" },
-    { "id": 5, "name": "Lil Doo", "breed": "Great Dane" },
-    { "id": 6, "name": "Lady Doo", "breed": "Great Dane" }
+    {
+      "id": 2,
+      "name": "Decker",
+      "breed": "German Sheperd",
+      "imgLocation": "./dog.svg"
+    },
+    {
+      "id": 4,
+      "name": "Scooby Doo",
+      "breed": "Great Dane",
+      "imgLocation": "./scooby.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Scrappy",
+      "breed": "Great Dane",
+      "imgLocation": "./scrappy.png"
+    },
+    {
+      "id": 6,
+      "name": "Lady Doo",
+      "breed": "Great Dane",
+      "imgLocation": "./dog.svg"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Lamar",
+      "job": "Breeder",
+      "imgLocation": "./employee.svg"
+    },
+    {
+      "id": 2,
+      "name": "Kesha",
+      "job": "Groomer",
+      "imgLocation": "./cowgirl.svg"
+    },
+    {
+      "id": 3,
+      "name": "Linda",
+      "job": "Cashier",
+      "imgLocation": "./cowgirl.svg"
+    },
+    {
+      "id": 4,
+      "name": "Rodney",
+      "job": "Groomer",
+      "imgLocation": "./employee.svg"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Nashville"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Rashawn",
+      "phoneNumber": "615-222-2900",
+      "imgLocation": "./owner.svg"
+    },
+    {
+      "id": 2,
+      "name": "Marcus",
+      "phoneNumber": "615-222-2909",
+      "imgLocation": "./owner.svg"
+    },
+    {
+      "id": 3,
+      "name": "Susan",
+      "phoneNumber": "615-222-2919",
+      "imgLocation": "./cowgirl.svg"
+    },
+    {
+      "id": 4,
+      "name": "Leslie",
+      "phoneNumber": "615-222-2919",
+      "imgLocation": "./cowgirl.svg"
+    },
+    {
+      "id": 5,
+      "name": "Paco",
+      "phoneNumber": "615-222-2919",
+      "imgLocation": "./owner.svg"
+    }
   ]
 }

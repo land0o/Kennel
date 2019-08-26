@@ -8,9 +8,6 @@
   flex: 0 1 24%;
   margin-top: 2em;
 }
-.card:hover {
-  background: violet;
-}
 
 .card-content {
   padding: 0.5em;
@@ -28,12 +25,12 @@
   color: darkslategrey;
 }
 
-.content-petname {
-  color: lightgreen;
+.content-ownername {
+  color: darkslategrey;
 }
 
 .card button {
-  background-color: lightsalmon;
+  background-color: cornflowerblue;
   border: none;
   color: cornsilk;
   text-align: center;
@@ -47,7 +44,5 @@
 }
 
 .card button:hover {
-  background-color: orange;
-  color: aquamarine;
-  cursor: pointer;
+  background-color: darkblue;
 }

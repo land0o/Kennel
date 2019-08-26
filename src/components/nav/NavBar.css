@@ -3,8 +3,9 @@ small {
 }
 
 header {
-  background-color: darkblue;
-  border: cornflowerblue solid 3px;
+  background-color: orangered;
+  border: orange solid 3px;
+  margin-top: -5px;
 }
 
 .site-title {
@@ -25,7 +26,7 @@ nav .container li {
   font-size: 1.5em;
   color: cornsilk;
   box-sizing: border-box;
-  background-color: cornflowerblue;
+  background-color: lightsalmon;
   list-style-type: none;
 }
 
