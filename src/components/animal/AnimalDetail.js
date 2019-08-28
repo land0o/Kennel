@@ -41,7 +41,7 @@ class AnimalDetail extends Component {
             <picture>
               <img src={require("./img/dog.svg")} alt="dog" />
             </picture>
-          ) : this.state.imgLocation.includes("www.") ? (
+          ) : this.state.imgLocation.includes("https://") ? (
             <picture>
               <img src={`${this.state.imgLocation}`} alt="My Dog" />
             </picture>

@@ -7,10 +7,10 @@ import "./Kennel.css";
 class Kennel extends Component {
   render() {
     return (
-      <>
+      <React.Fragment>
         <NavBar />
         <ApplicationViews />
-      </>
+      </React.Fragment>
     );
   }
 }

@@ -1,6 +1,12 @@
 /* Import the google web fonts you want to use */
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
+/* body {
+  background-image: url(/src/detention.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
 /*Typography
 --------------------------------------------------------------*/
 body,
