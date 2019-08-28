@@ -4,25 +4,43 @@
       "id": 2,
       "name": "Decker",
       "breed": "German Sheperd",
-      "imgLocation": "./dog.svg"
+      "imgLocation": "./img/dog.svg"
     },
     {
       "id": 4,
       "name": "Scooby Doo",
       "breed": "Great Dane",
-      "imgLocation": "./scooby.jpg"
+      "imgLocation": "./img/scooby.jpg"
     },
     {
       "id": 5,
       "name": "Scrappy",
       "breed": "Great Dane",
-      "imgLocation": "./scrappy.png"
+      "imgLocation": "./img/scrappy.png"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Lady Doo",
       "breed": "Great Dane",
-      "imgLocation": "./dog.svg"
+      "imgLocation": "https://pbs.twimg.com/media/C_m36nVXYAABlWF.jpg"
+    },
+    {
+      "name": "asdf",
+      "breed": "sfd",
+      "imgLocation": "https://www.rachaelrayshow.com/sites/default/files/styles/video_1920x1080/public/images/2019-06/dog.jpg?itok=mFEHYdZh",
+      "id": 10
+    },
+    {
+      "name": "terry",
+      "breed": "pug",
+      "imgLocation": "https://www.petmd.com/sites/default/files/Acute-Dog-Diarrhea-47066074.jpg",
+      "id": 11
+    },
+    {
+      "name": "Amber",
+      "breed": "Dog",
+      "imgLocation": "https://vignette.wikia.nocookie.net/scoobydoo/images/0/01/Amber.png/revision/latest?cb=20160117025826",
+      "id": 12
     }
   ],
   "employees": [
@@ -54,15 +72,18 @@
   "locations": [
     {
       "id": 1,
-      "name": "Nashville"
+      "name": "Nashville",
+      "imgLocation": "./location.jpg"
     },
     {
       "id": 2,
-      "name": "Nashville"
+      "name": "The River",
+      "imgLocation": "./location.jpg"
     },
     {
-      "id": 2,
-      "name": "Nashville"
+      "id": 3,
+      "name": "The Field",
+      "imgLocation": "./rickLocation.jpeg"
     }
   ],
   "owners": [

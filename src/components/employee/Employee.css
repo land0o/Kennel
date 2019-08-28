@@ -44,5 +44,7 @@
 }
 
 .card button:hover {
-  background-color: darkblue;
+  background-color: orange;
+  color: aquamarine;
+  cursor: pointer;
 }

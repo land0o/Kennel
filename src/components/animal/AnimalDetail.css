@@ -1,0 +1,24 @@
+.card {
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+.card button {
+  background-color: lightsalmon;
+  border: none;
+  color: cornsilk;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em;
+  border-radius: 2px;
+  margin: 0.1em;
+  width: 100%;
+}
+
+.card button:hover {
+  background-color: orange;
+  color: aquamarine;
+  cursor: pointer;
+}

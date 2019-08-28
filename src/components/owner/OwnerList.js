@@ -34,7 +34,11 @@ class OwnerList extends Component {
     return (
       <div className="container-cards">
         {this.state.owners.map(owner => (
-          <OwnerCard key={owner.id} owner={owner} deleteOwner={this.deleteOwner}  />
+          <OwnerCard
+            key={owner.id}
+            owner={owner}
+            deleteOwner={this.deleteOwner}
+          />
         ))}
       </div>
     );

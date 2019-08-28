@@ -32,11 +32,28 @@ class LocationList extends Component {
     console.log("Location LIST: Render");
 
     return (
+      <React.Fragment>
+      <section className="section-content">
+      <button
+        type="button"
+        className="btn"
+        onClick={() => {
+          this.props.history.push("/locations/new");
+        }}
+      >
+        New Location
+      </button>
+    </section>
       <div className="container-cards">
         {this.state.locations.map(location => (
-          <LocationCard key={location.id} location={location} deleteLocation={this.deleteLocation} />
+          <LocationCard
+            key={location.id}
+            location={location}
+            deleteLocation={this.deleteLocation}
+          />
         ))}
       </div>
+      </React.Fragment>
     );
   }
 }
